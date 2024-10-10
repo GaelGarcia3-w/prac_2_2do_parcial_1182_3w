@@ -1,0 +1,22 @@
+#11-  Que saque la distancia dirigida entre dos puntos.
+print(" ")
+print("Edgar Gael Garcia Camacho 1182:Prac_2")
+print(" ")
+#Se usa una funcion para tener  varibles para agregarles valores.
+def distancia_dirigida(x1, y1, x2, y2):
+
+    return (x2 - x1, y2 - y1)
+#Se les asignan valores a las variables
+x1 = float(input("x1: "))
+print(" ")
+y1 = float(input("y1: "))
+print(" ")
+x2 = float(input("x2: "))
+print(" ")
+y2 = float(input("y2: "))
+print(" ")
+#Te imprime un mensaje con las cohordendas.
+distancia = distancia_dirigida(x1, y1, x2, y2)
+print(" ")
+print("Distancia dirigida:", distancia)
+print(" ")
