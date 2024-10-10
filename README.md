@@ -113,6 +113,46 @@ print(" ")
 
 ![image](https://github.com/user-attachments/assets/e31b5921-48c6-4736-9531-41cbc40827f6)
 
+# 5- Calcular el área de un círculo  y el volumen otra que calcule el volumen de un cilindro y utilice  primera función.
+
+print(" ")
+
+print("edgar gael garcia camacho 1182:Prac_2")
+
+print(" ")
+
+import math#Esto define varias funciones matemticas.
+
+print(" ")
+
+radio = float(input("Introduce el radio del círculo: "))#Te pide que introduscas el radio del circulo. 
+
+print(" ")
+
+area = math.pi * (radio ** 2)#La operacion para llevar acabo el area del circulo.
+
+print(" ")
+
+print(f"El área del círculo es: {area:.2f}")#Te imprime el resultado del area.
+
+print(" ")
+
+altura = float(input("Introduce la altura del cilindro: "))#Te pide que introlduscas la altura del cilindro.
+
+print(" ")
+
+volumen = area * altura#La opercion para obtener el volumen.
+
+print(" ")
+
+print(f"El volumen del cilindro es: {volumen:.2f}")#Te imprime el resultado del volumen del cilindro.
+
+print(" ")
+
+![image](https://github.com/user-attachments/assets/e96edd89-e172-4f67-b656-eeab9fcb71d0)
+
+![image](https://github.com/user-attachments/assets/fd219ebc-ef55-4aff-b76f-864297a3c173)
+
 
 
 
