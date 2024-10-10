@@ -344,7 +344,51 @@ print(es_vocal(caracter))
 
 ![image](https://github.com/user-attachments/assets/eafd7010-5d18-47f5-a2b7-69e5edf49618)  ![image](https://github.com/user-attachments/assets/7ea20f18-2b51-4c1d-8733-a60f11c46992)
 
+# 11-  Que saque la distancia dirigida entre dos puntos.
 
+print(" ")
+
+print("Edgar Gael Garcia Camacho 1182:Prac_2")
+
+print(" ")
+
+#Se usa una funcion para tener  varibles para agregarles valores.
+
+def distancia_dirigida(x1, y1, x2, y2):
+
+return (x2 - x1, y2 - y1)
+
+#Se les asignan valores a las variables
+
+x1 = float(input("x1: "))
+
+print(" ")
+
+y1 = float(input("y1: "))
+
+print(" ")
+
+x2 = float(input("x2: "))
+
+print(" ")
+
+y2 = float(input("y2: "))
+
+print(" ")
+
+#Te imprime un mensaje con las cohordendas.
+
+distancia = distancia_dirigida(x1, y1, x2, y2)
+
+print(" ")
+
+print("Distancia dirigida:", distancia)
+
+print(" ")
+
+![image](https://github.com/user-attachments/assets/5086cddb-88ce-4fd7-a307-040d59d2c5f6)
+
+![image](https://github.com/user-attachments/assets/21ed38d7-3e6b-4362-90c2-45f97d91c396)
 
 
 
