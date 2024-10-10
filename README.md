@@ -153,6 +153,46 @@ print(" ")
 
 ![image](https://github.com/user-attachments/assets/fd219ebc-ef55-4aff-b76f-864297a3c173)
 
+# 6- Capturar dirección de email. Desplegar mensaje si la dirección es válida o no, siendo que una función lo revisar por tener la @ solo así es valida
+
+print(" ")
+
+print("Edgar Gael garcia Camacho 1182:Prac_2")
+
+print(" ")
+
+def es_email_valido(email):#Se usa la funcion para llevar acabo el programa. 
+   
+  return '@' in email#Se usa para verificar que lleve el @.
+
+
+print(" ")
+
+email = input("Introduce tu dirección de email: ")#Te pide introducir un Email.
+
+print(" ")
+
+if es_email_valido(email):
+
+  print(" ")
+  
+  print("La dirección de email es válida.")#Si el Email esta bien escrito te saldra este mensaje.
+  
+  print(" ")
+
+else:
+
+  print(" ")
+  
+  print("La dirección de email no es válida.")#Si e Email esta mal escrito te saldra este mensaje
+  
+  print(" ")
+
+![image](https://github.com/user-attachments/assets/cbab7b9a-f63e-4c64-b89f-16724bbe6040)
+
+![image](https://github.com/user-attachments/assets/8724d029-2c5d-4be6-9742-59202e1ceb92)
+
+
 
 
 
