@@ -318,6 +318,32 @@ print(" ")
 
 ![image](https://github.com/user-attachments/assets/4e492080-6475-481e-9afa-78c50eda9c70)
 
+# 10- Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrariodevuelve False.
+
+print(" ")
+
+print("Edgar Gael Gracia Camacho 1182 :Prac_2")
+
+print(" ")
+
+#Se usa la funcion para pedir los carcteres aeiou
+
+def es_vocal(caracter):
+
+  return caracter.lower() in 'aeiou'
+
+#Se le pide al usuario introducir un caracter y te dice dice si es True o False.
+
+caracter = input("Introduce un carácter: ")
+
+print(" ")
+
+print(es_vocal(caracter))
+
+![image](https://github.com/user-attachments/assets/bd003478-b255-406b-97c0-636b0ddf8c99)
+
+![image](https://github.com/user-attachments/assets/eafd7010-5d18-47f5-a2b7-69e5edf49618)  ![image](https://github.com/user-attachments/assets/7ea20f18-2b51-4c1d-8733-a60f11c46992)
+
 
 
 
