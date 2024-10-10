@@ -1,0 +1,21 @@
+#3- Dar un entero positivo y resuelva su factorial.
+print(" ")
+print("Edgar Gael garcia Camacho 1182 :Prac_2")
+print(" ")
+def num_factorial(n):#Se ingres a la funcion una vrible par llevar acabo el programa.
+    resultado = 1
+    for i in range(2, n + 1):#Se us aessto paara determinar el numero.
+        resultado *= i #El resultado de la factorial.
+    return resultado#Return significa l fin de la funcion y el inicio de la ejecucion.
+
+
+numero = int(input("Introduce un entero positivo: "))#Te pide introducir un numero entero.
+
+
+if numero < 0:#Por si el numnero ess menor  0.
+    print(" ")
+    print("Ese no es un numero positivo >:V.")#te indica que no es un numero positivo el que seleccionaste.
+else:
+    
+    resultado = num_factorial(numero)
+    print(f"El factorial de {numero} es {resultado}.")#El resultado de laa facotoril del numero elegido.
