@@ -1,0 +1,19 @@
+#8- Definir una función (), que tome tres números como argumentos y devuelva el mayor de ellos.
+print(" ")
+print("Edgar gael garcia camacho 1182 :Prac_2" )
+print(" ")
+def mayor_de_tres(num1, num2, num3):#Se usa la funcion para llevar acabo el progarma. 
+    #Se toma la diferencia de los numeros.
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+#Te pide introducir diferentes numeros en tres ocaciones.
+numero1 = float(input("Introduce el primer número: "))
+numero2 = float(input("Introduce el segundo número: "))
+numero3 = float(input("Introduce el tercer número: "))
+#Se evalua el numero mayor y se determina cual es.
+mayor = mayor_de_tres(numero1, numero2, numero3)
+print(f"El mayor de los tres números es: {mayor}")
