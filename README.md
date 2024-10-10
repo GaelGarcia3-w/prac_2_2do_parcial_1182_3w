@@ -192,6 +192,42 @@ else:
 
 ![image](https://github.com/user-attachments/assets/8724d029-2c5d-4be6-9742-59202e1ceb92)
 
+# 7- Función que de un string, regrese la longitud de la última palabra. Las palabras tienen separación por uno o más espacios.
+
+print(" ")
+
+print("Edgr Gael Garcia Camacho 1182:Prac_2")
+
+print(" ")
+
+def longitud_ultima_palabra(frase):#Se utiliza la funcion para llevar acabo el programa.
+    
+  palabras = frase.split()#Se usa para contar las palabras de las frases
+   
+  return len(palabras[-1]) if palabras else 0#Se utiliza para solo rescatar ls plabras.
+
+
+print(" ")
+
+frase = input("Introduce una frase: ")#Te pide introducir una frase.
+
+print(" ")
+
+longitud = longitud_ultima_palabra(frase)#Se introduce la longitud.
+
+print(" ")
+
+
+
+print(f"La longitud de la última palabra es: {longitud}")#Te imprime el numero de letras que hay en la ultima  palabra de la frase.
+
+
+print(" ")
+
+![image](https://github.com/user-attachments/assets/933c9cb1-2743-4d59-972e-b38184419608)
+
+![image](https://github.com/user-attachments/assets/349597e6-7b70-4fcd-8624-568d64d14d56)
+
 
 
 
