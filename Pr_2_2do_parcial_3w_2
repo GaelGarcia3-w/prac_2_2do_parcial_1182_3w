@@ -1,0 +1,10 @@
+#2- Dar un string <nombre> y despliegue un saludo ¡hola <nombre>!.
+print(" ")
+print("Edgar Gael garcia Camacho 1182 :prac_2")
+print(" ")
+def saludo_con_tu_nombre(a):#Ingresa una funcion con una variable para llevar acabo el problema
+    return a#Indica el final de la funcion y el principio de la ejecucion. 
+a = saludo_con_tu_nombre(input("Ingresa tu nombre :"))#Te pide que ingreses tu nombre.
+print(" ")
+print("Hola" + " " + a + "!")#El mensaje que dice "hola" con tu nombre y al final un signo de exclamación.
+print(" ")
