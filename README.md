@@ -270,6 +270,53 @@ print(f"El mayor de los tres números es: {mayor}")
 
 ![image](https://github.com/user-attachments/assets/3001770c-ea21-4b0f-bffc-40710fc2914a)
 
+# 9- Escribir una funcion sum() y una función multip() que sumen y multipliquen respectivamentetodos los números de una lista. Por ejemplo: sum([1,2,3,4]) debería devolver 10 y multip([1,2,3,4])debería devolver 24.
+
+print(" ")
+
+print("Edgar Gael Garcia Camacho 1182:Prac_2")
+
+print(" ")
+
+#Se realiza una funcion para elaborar una suma.
+
+def sumar(lista):
+
+  return sum(lista) 
+
+#Se realiza una funcion para elaborar una multiplicacion.
+
+def multiplicar(lista):
+
+  resultado = 1
+  
+  for num in lista:
+  
+  resultado *= num
+  
+  return resultado
+
+#Los numeros que se van a multiplicar y  sumar.
+
+numeros = [1, 4, 3, 2]
+
+#Los respectivos resultados.
+
+print("Números:", numeros)
+
+print(" ")
+
+print("Suma:", sumar(numeros))
+
+print(" ")
+
+print("Multiplicación:", multiplicar(numeros))
+
+print(" ")
+
+![image](https://github.com/user-attachments/assets/973fc763-38fe-48c8-9a72-b8363d56d0c3)
+
+![image](https://github.com/user-attachments/assets/4e492080-6475-481e-9afa-78c50eda9c70)
 
 
 
