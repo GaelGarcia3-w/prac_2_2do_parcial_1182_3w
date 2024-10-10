@@ -85,6 +85,34 @@ resultado = num_factorial(numero)
 
   ![image](https://github.com/user-attachments/assets/2d052560-b8f7-4aae-8f02-f83786018992)
 
+#4.- Calcular total de una factura luego del IVA. primero obtener la cantidad sin IVA luego el porcentaje de IVA a aplicar, por ultimo devolver el total de la factura. 
+
+print(" ")
+
+print("Edgar Gael Garcia Camacho 1182:Pract_2")
+
+print(" ")
+
+cantidad_sin_iva = float(input("Introduce la cantidad sin IVA: "))#Te pide introducir una cantidad.
+
+print(" ")
+
+porcentaje_iva = float(input("Introduce el porcentaje de IVA: "))#Te pide el % del IVA.
+
+print(" ")
+
+total_factura = cantidad_sin_iva * (1 + porcentaje_iva / 100)#L opercion que se lleva acabo.
+
+print(" ")
+
+print(f"El total de la factura, incluyendo IVA, es: {total_factura:.2f}")#El resultdo de l factura.
+
+print(" ")
+
+![image](https://github.com/user-attachments/assets/8116bc91-3990-461d-97f9-515d5c08ca9c)
+
+![image](https://github.com/user-attachments/assets/e31b5921-48c6-4736-9531-41cbc40827f6)
+
 
 
 
