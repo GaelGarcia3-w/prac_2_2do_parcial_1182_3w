@@ -29,6 +29,25 @@ while contador < veces:#Se usa "While" para que cuando el "contador" se a menor 
 
   ![image](https://github.com/user-attachments/assets/336df0f6-3283-421c-9b13-f1ed00873bda)
 
+# 2- Dar un string <nombre> y despliegue un saludo ¡hola <nombre>!.
+
+print(" ")
+
+print("Edgar Gael garcia Camacho 1182 :prac_2")
+
+def saludo_con_tu_nombre(a):#Ingresa una funcion con una variable para llevar acabo el problema
+
+  return a#Indica el final de la funcion y el principio de la ejecucion. 
+
+a = saludo_con_tu_nombre(input("Ingresa tu nombre :"))#Te pide que ingreses tu nombre.
+
+print("Hola" + " " + a + "!")#El mensaje que dice "hola" con tu nombre y al final un signo de exclamación.
+
+![image](https://github.com/user-attachments/assets/967c7c0a-f090-41d8-af32-edd710b0e490)
+
+![image](https://github.com/user-attachments/assets/7648e5f1-5da9-4fda-9763-d6d021f600e3)
+
+
 
 
 
