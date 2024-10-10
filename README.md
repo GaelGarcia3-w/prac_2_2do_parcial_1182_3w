@@ -85,7 +85,7 @@ resultado = num_factorial(numero)
 
   ![image](https://github.com/user-attachments/assets/2d052560-b8f7-4aae-8f02-f83786018992)
 
-#4.- Calcular total de una factura luego del IVA. primero obtener la cantidad sin IVA luego el porcentaje de IVA a aplicar, por ultimo devolver el total de la factura. 
+# 4.- Calcular total de una factura luego del IVA. primero obtener la cantidad sin IVA luego el porcentaje de IVA a aplicar, por ultimo devolver el total de la factura. 
 
 print(" ")
 
