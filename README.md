@@ -7,7 +7,7 @@ print("Edgar Gael garcia Camacho : pr2")
 
 print(" ")
 
-#1- Funcion que muestre el saludo Hey amigos! cada vez que se le pida.
+# 1- Funcion que muestre el saludo Hey amigos! cada vez que se le pida.
 
 def saludo(Hola):#Se ingresa la funcion para llevar acabo el programa
   
